@@ -5,7 +5,7 @@ export const ContactPicker = (props) => {
   const { contacts, setContact } = props;
 
   const options = contacts.map((contact, index) => (
-    <option key={"contact:" + index} value={contact}>
+    <option key={contact.id} value={contact}>
       {contact.name}
     </option>
   ));

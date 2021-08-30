@@ -41,7 +41,7 @@ export const AppointmentForm = ({
         type="time"
         name="time"
         value={time}
-        onChange={({ target }) => setDate(target.value)}
+        onChange={({ target }) => setTime(target.value)}
         placeholder="time"
       ></input>
       <ContactPicker
